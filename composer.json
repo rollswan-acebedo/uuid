@@ -1,0 +1,26 @@
+{
+    "name": "rollswan/uuid",
+    "description": "Generates Universally Unique IDentifiers as primary key",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rollswan Acebedo",
+            "email": "rollswanacebedo@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rollswan\\Uuid\\UuidServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Rollswan\\Uuid\\": "src/",
+            "Rollswan\\Uuid\\Traits\\": "src/traits/"
+        }
+    },
+    "minimum-stability": "dev"
+}
