@@ -19,7 +19,7 @@
     "autoload": {
         "psr-4": {
             "Rollswan\\Uuid\\": "src/",
-            "Rollswan\\Uuid\\Traits\\": "src/traits/"
+            "Rollswan\\Uuid\\Traits\\": "src/Traits/"
         }
     },
     "minimum-stability": "dev"
