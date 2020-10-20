@@ -9,7 +9,7 @@ class UuidServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        Blueprint::macro('luuid', function (string $columnName = 'uuid') {
+        Blueprint::macro('uuid', function (string $columnName = 'uuid') {
             return $this->uuid($columnName)->primary();
         });
     }
