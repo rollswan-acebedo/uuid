@@ -29,8 +29,8 @@ A Laravel package to generate uuid as primary keys.
     
     class Post extends Model
     {
-    	use WithUuid;
-    	protected $primaryKey = 'uuid';
+        use WithUuid;
+        protected $primaryKey = 'uuid';
     }
 
 
